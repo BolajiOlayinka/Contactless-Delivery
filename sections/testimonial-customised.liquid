@@ -1,0 +1,98 @@
+<img src="{{section.settings.banner_img | img_url:'1400x400'}}" alt=""> 
+<div class="list-middle">
+<!-- <h1 class="custom-title"> {{section.settings.Title}} </h1> -->
+
+
+</div>
+<!-- <div class="container">
+    <div class="winner-section">
+    <div class="stretch">
+        <div class="testimonial-one">
+            <img src="{{section.settings.winner_gift | img_url:'400x400'}}" alt=""> 
+            
+        </div>
+        
+    </div>
+    </div>
+</div> -->
+
+
+{% schema %}
+  {
+    "name": "Custom Content",
+
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"banner_img",
+        "label":"Banner Image"
+      },
+      {
+        "type":"text",
+        "id":"Title",
+        "label":"Title"
+      },
+      {
+        "type":"text",
+        "id":"list_one",
+        "label":"List item"
+      },
+      {
+        "type":"text",
+        "id":"list_two",
+        "label":"List item"
+      },
+      {
+        "type":"text",
+        "id":"list_three",
+        "label":"List Item"
+      },
+      {
+        "type":"text",
+        "id":"list_four",
+        "label":"List Item"
+      },
+      {
+        "type":"text",
+        "id":"list_five",
+        "label":"List Item"
+      },
+      {
+        "type":"image_picker",
+        "id":"winner_gift",
+        "label":"Winner's Gift"
+      },
+      {
+        "type":"text",
+        "id":"winner_heading",
+        "label":"Winner Heading"
+      },
+      {
+        "type":"text",
+        "id":"winner_subheading",
+        "label":"Winner Sub Heading"
+      },
+      {
+        "type":"text",
+        "id":"winner_instaname",
+        "label":"Winner Sub Heading"
+      },
+      {
+        "type":"image_picker",
+        "id":"icon_img",
+        "label":"Social Icon Image"
+      }
+      
+      ],
+      "presets": [
+      {
+        "category": "Top Banner",
+        "name": "Text"
+       
+  }
+  ]
+  }
+  {% endschema %}
+
+
+  

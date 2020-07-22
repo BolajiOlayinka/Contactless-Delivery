@@ -1,0 +1,111 @@
+<div>
+  
+    <img src="{{section.settings.banner_img | img_url:'1400x400'}}" alt=""> 
+    <div class="proposition_area">
+      <h1 class="custom-title"> {{section.settings.Title}} </h1>
+      <div class="container">
+          <div class="stretch">
+            
+              <div class="contactless-two">
+              <img src="{{section.settings.icon_img | img_url:'500x500'}}" alt="">
+              </div>
+              <div class="contactless-one">
+                <h3 class="franchise_sub_head">{{section.settings.subtitle_one}}</h3>
+                <div class="proposition_details">
+                  
+                     <p>{{section.settings.para_one}}</p>
+                </div>
+              
+                
+            </div>
+            
+          </div>
+    <div class="stretch top_space">
+        <div class="contactless-three">
+            <img src="{{section.settings.icon_img_two | img_url:'500x500'}}" alt=""> 
+          </div>
+        <div class="contactless-one">
+            <h3 class="franchise_sub_head">{{section.settings.subtitle_two}}</h3>
+            <div class="proposition_details">
+              <p>{{section.settings.para_two}}</p>
+            </div>
+            
+        </div>
+      <div class="contactless-four">
+        <img src="{{section.settings.icon_img_two | img_url:'500x500'}}" alt=""> 
+      </div>
+     
+  </div>
+ 
+ 
+ 
+  
+
+
+</div>
+
+</div>
+
+
+{% schema %}
+  {
+    "name": "Custom Content",
+
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"banner_img",
+        "label":"Banner Image"
+      },
+      
+      {
+        "type":"text",
+        "id":"Title",
+        "label":"Title"
+      },
+      {
+        "type":"image_picker",
+        "id":"icon_img",
+        "label":"Icon"
+      },
+      {
+        "type":"richtext",
+        "id":"subtitle_one",
+        "label":"First Subtitle"
+      },
+      {
+        "type":"text",
+        "id":"para_one",
+        "label":"First Paragraph"
+      },
+      {
+        "type":"image_picker",
+        "id":"icon_img_two",
+        "label":"Icon"
+      },
+      {
+        "type":"richtext",
+        "id":"subtitle_two",
+        "label":"Second Subtitle"
+      },
+      {
+        "type":"text",
+        "id":"para_two",
+        "label":"Section Paragraph"
+      }
+      
+      
+      
+    ],
+
+    "presets": [
+      {
+        "category": "Top Banner",
+        "name": "Text"
+       
+        
+  }
+]
+  }
+
+{% endschema %}

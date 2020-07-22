@@ -1,0 +1,85 @@
+.banner-full-link { 
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .banner-full-link + .caption {
+    pointer-events: none;
+    cursor: pointer;
+  }
+
+.caption-content {
+    display: inline-block;
+    float: none;
+    max-width: 60%;
+    font-size: 0;
+    @include respond-to('medium-down'){
+      max-width: 80%;
+    }
+    @include respond-to('small-down') {
+      width: 100%;
+      max-width: 100%;
+    }
+    .action_button {
+      margin: 10px;
+      @include respond-to('medium-down'){
+        // tightens up stacked buttons on iPad
+        margin: 5px;
+      }
+      @include respond-to('small-down') {
+        font-size: 16px;
+      }
+    }
+    &.align-center {
+      text-align: center;
+      @include respond-to('medium-down') {
+        max-width: 80%;
+      }
+      @include respond-to('small-down') {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+    &.align-left {
+      text-align: left;
+      &:first-child .action_button {
+        margin-left: 0;
+      }
+      .subtitle:before {
+        margin-left: 0;
+      }
+    }
+    &.align-right {
+      text-align: right;
+      &:last-child .action_button {
+        margin-right: 0;
+      }
+      .subtitle:before {
+        margin-right: 0;
+      }
+    }
+    &.caption-background-true {
+      padding: 30px;
+      @include respond-to('small-down') {
+        padding: 0;
+      }
+    }
+  }
+
+  .image-element__wrap {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  
+  .image-element__wrap img {
+    height: auto;
+  }
+  

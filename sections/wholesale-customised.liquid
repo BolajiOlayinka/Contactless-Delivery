@@ -1,0 +1,227 @@
+<div>
+  
+    <img src="{{section.settings.banner_img | img_url:'1400x400'}}" alt=""> 
+    <div class="proposition_area">
+      <h1 class="custom-title"> {{section.settings.Title}} </h1>
+      <div class="container">
+          <div class="stretch">
+              <div class="scroll">
+                <img src="{{section.settings.icon_img | img_url:'200x200'}}" alt="">
+              </div>
+              <div class="scroll_two">
+                  <h3 class="franchise_sub_head">{{section.settings.subtitle_one}}</h3>
+                  <div class="proposition_details">
+                      <ul>
+                          <li>
+                            {{section.settings.list_one}}
+                          </li>
+                          <li>{{section.settings.list_two}} </li>
+                          <li>{{section.settings.list_three}}</li>
+                      </ul>
+
+                  </div>
+                  <hr>
+              </div>
+          </div>
+    <div class="stretch top_space">
+      <div class="scroll">
+        <img src="{{section.settings.icon_img_two | img_url:'200x200'}}" alt=""> 
+      </div>
+      <div class="scroll_two">
+          <h3 class="franchise_sub_head">{{section.settings.subtitle_two}}</h3>
+          <div class="proposition_details">
+              <ul>
+                  <li>
+                     {{section.settings.list_four}}
+                  </li>
+                  <li>{{section.settings.list_five}}</li>
+                  <li>{{section.settings.list_sixx}}
+                  </li>
+              </ul>
+          </div>
+          <hr>
+      </div>
+  </div>
+  <div class="stretch top_space">
+      <div class="scroll">
+        <img src="{{section.settings.icon_img_three | img_url:'200x200'}}" alt="">
+      </div>
+      <div class="scroll_two">
+          <h3 class="franchise_sub_head">{{section.settings.subtitle_three}}</h3>
+
+          <p>
+              {{section.settings.list_seven}}
+          </p>
+
+          <hr>
+      </div>
+  </div>
+  <div class="franchise_product_area text-center">
+    <h2>{{section.settings.product_heading}}</h2>
+    <p> {{section.settings.product_subheading}}
+    </p>
+    <img src="{{section.settings.banner_grid | img_url:'1024x1024'}}" alt="">
+  </div>
+  <div class="wholesaler_form">
+    <h2>{{section.settings.wholesaler_heading}}</h2>
+    <h3>{{section.settings.wholesaler_subheading}}</h3>
+    <p>{{section.settings.wholesaler_para}}</p>
+        <p class="wholesale_manager"> {{section.settings.wholesaler_paragraph}}</p>
+<p style="color:yellow"> <b>{{section.settings.wholesaler_announce}}</b></p>
+  </div>
+  <div class="powr-form-builder" id="1cdda7fd_1573570737"></div>
+
+
+</div>
+
+</div>
+
+
+{% schema %}
+  {
+    "name": "Custom Content",
+
+    "settings": [
+      {
+        "type":"image_picker",
+        "id":"banner_img",
+        "label":"Banner Image"
+      },
+      
+      {
+        "type":"text",
+        "id":"Title",
+        "label":"Title"
+      },
+      {
+        "type":"image_picker",
+        "id":"icon_img",
+        "label":"Icon"
+      },
+      {
+        "type":"richtext",
+        "id":"subtitle_one",
+        "label":"First Subtitle"
+      },
+      {
+        "type":"text",
+        "id":"list_one",
+        "label":"List item"
+      },
+      {
+        "type":"text",
+        "id":"list_two",
+        "label":"List item"
+      },
+      {
+        "type":"text",
+        "id":"list_three",
+        "label":"List Item"
+      },
+     
+      {
+        "type":"image_picker",
+        "id":"icon_img_two",
+        "label":"Icon"
+      },
+      {
+        "type":"richtext",
+        "id":"subtitle_two",
+        "label":"Second Subtitle"
+      },
+      {
+        "type":"text",
+        "id":"list_four",
+        "label":"List item"
+      },
+      {
+        "type":"text",
+        "id":"list_five",
+        "label":"List item"
+      },
+      {
+        "type":"text",
+        "id":"list_sixx",
+        "label":"List Item"
+      },
+      {
+        "type":"image_picker",
+        "id":"icon_img_three",
+        "label":"Icon"
+      },
+      {
+        "type":"richtext",
+        "id":"subtitle_three",
+        "label":"Third Subtitle"
+      },
+      {
+        "type":"text",
+        "id":"list_seven",
+        "label":"List item"
+      },
+      {
+        "type":"text",
+        "id":"list_eight",
+        "label":"List item"
+      },
+      {
+        "type":"text",
+        "id":"list_nine",
+        "label":"List Item"
+      },
+      {
+        "type":"richtext",
+        "id":"product_heading",
+        "label":"Product Heading"
+      },
+      {
+        "type":"text",
+        "id":"product_subheading",
+        "label":"Product Subheading"
+      },
+      {
+        "type":"image_picker",
+        "id":"banner_grid",
+        "label":"Product Grid"
+      },
+      {
+        "type":"text",
+        "id":"wholesale_heading",
+        "label":"Wholesaler Heading"
+      },
+      {
+        "type":"text",
+        "id":"wholesaler_subheading",
+        "label":"Wholesaler Subheading"
+      },
+      {
+        "type":"text",
+        "id":"wholesaler_para",
+        "label":"Wholesaler Paragraph"
+      },
+      {
+        "type":"text",
+        "id":"wholesaler_paragraph",
+        "label":"Wholesaler Paragraph"
+      },
+      {
+        "type":"text",
+        "id":"wholesaler_announce",
+        "label":"Wholesaler Announcement"
+      }
+
+      
+      
+    ],
+
+    "presets": [
+      {
+        "category": "Top Banner",
+        "name": "Text"
+       
+        
+  }
+]
+  }
+
+{% endschema %}

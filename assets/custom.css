@@ -1,0 +1,833 @@
+/* Page Datails */
+
+/* .banner-full-link {
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .banner-full-link + .caption {
+    pointer-events: none;
+    cursor: pointer;
+  }
+.image-with-text .featured-link--half a[href] img {
+    box-shadow: #000 0em 0em 0em;
+    transition: opacity 0.2s linear;
+  }
+  .image-with-text .featured-link--half:hover a[href] img.lazyloaded {
+    opacity: 0.8;
+  }
+  .standard--width .image-with-text .featured-link--image,
+.full-width--false.image-with-text .featured-link--image {
+  background-color: transparent;
+} */
+
+/* End Page Details */
+
+/* About page */
+.about-body{
+    width:90%;
+    text-align:justify;
+    padding-bottom:2em;
+    margin:auto;
+    margin-top:2em;
+}
+.column-one{
+    flex: 25%;
+    text-align: center;
+    align-self: center;
+    
+    padding:20px;
+}
+.column-one img{
+    border-radius:10%;
+    width: 80%;
+}
+.column-two{
+    flex: 25%;
+    text-align: center;
+    align-self: center;
+    
+    padding:20px;
+}
+.column-two img{
+    border-radius:10%;
+    width: 80%;
+}
+.column-three{
+    flex: 25%;
+    text-align: center;
+    align-self: center;
+   
+    padding:20px;
+}
+.column-three img{
+    border-radius:10%;
+    width: 80%;
+}
+.column-four{
+    flex:25%;
+    text-align: center;
+    align-self: center;
+    
+    padding:20px;
+}
+.column-four img{
+    border-radius:10%;
+    width: 80%;
+}
+.team-area{
+    margin-top:0.5em;
+    text-align:center;
+}
+.team-heading{
+    text-align:center;
+    font-weight:bold;
+    font-size:2.4em;
+    margin-top:0.3em;
+    margin-bottom:0.5em;
+    
+}
+.team-subheading{
+    margin-top:-1.9em;
+}
+.team-details{
+    padding-top:0.5em;
+}
+.teamate-name{
+    font-size:1.4em;
+    color:#3a2a2f;
+
+    
+}
+.teamate-position{
+    margin-top:-1.8em;
+font-size:1em;
+}
+
+
+@media(max-width:450px){
+    .about-body{
+        width:1;
+        margin-top:3em;
+
+    }
+    .column-one{
+        flex:1;
+        flex-direction:column
+    }
+    .column-two{
+        flex:1;
+        flex-direction:column
+    }
+    .column-three{
+        flex:1;
+        flex-direction:column
+    }
+    .column-four{
+        flex:1;
+        flex-direction:column
+    }
+}
+
+/* Contactless */
+.contactless-one {
+    flex: 3;
+}
+
+.contactless-two {
+    flex: 3;
+    text-align: center;
+    align-self: center;
+}
+.contactless-one p{
+    width:80%;
+    margin:auto;
+    font-size:1.3em;
+    text-align:justify;
+    margin-bottom:2em;
+}
+.contactless-two img{
+    width:80%;
+    margin-bottom:5em;
+}
+.contactless-three{
+    display:none;
+}
+.contactless-four{
+    flex:3;
+    text-align: center;
+    align-self: center;
+}
+.contactless-four img{
+    width:80%;
+    margin-bottom:5em;
+}
+@media only screen and (max-width: 1200px) {
+.contactless-one p{
+    font-size:1em
+}
+}
+@media only screen and (max-width: 991px) {
+    .contactless-two img{
+        width:60%;
+    }
+    .contactless-four img{
+        width:60%;
+    }
+    .contactless-one p{
+        font-size:1em
+    }
+}
+@media only screen and (max-width: 426px) {
+.contactless-one{
+    flex-direction:column;
+    margin-bottom:none;
+}
+.contactless-two{
+    flex-direction:none;
+}
+.contactless-two img{
+    width:100%;
+}
+.contactless-four{
+    display:none;
+    flex-direction:column;
+}
+.contactless-one p{
+    font-size:1em;
+    width:100%
+}
+.contactless-three img{
+    display:block;
+    width:100%;
+}
+.contactless-three{
+    display:block;
+    flex-direction:column;
+}
+
+}
+/* End Contactless*/
+
+/* Testimonial */
+.list-middle{
+    text-align:left; 
+    width:75%;
+    margin:auto
+}
+.winner-section{
+    background-image:url("https://cdn.shopify.com/s/files/1/0246/9327/6757/files/winner_banner.png?v=1589328791");
+    padding-bottom:30px;
+    width:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-top:3em;
+}
+.testimonial-one {
+    flex: 2;
+}
+.testimonial-one img{
+margin-top:30px;
+margin-left:50px;
+}
+
+.testimonial-two {
+    flex: 4;
+    text-align: right;
+    align-self: center;
+   
+}
+.insta-img{
+    display:inline-block;
+    vertical-align: middle;
+    background-image:url("https://cdn.shopify.com/s/files/1/0246/9327/6757/files/instaframe_8cd0b054-58db-4285-aa85-2c1c6ecce6d1.png?v=1589458189");
+    /* background-size: 300px; */
+  width: 400px;
+  height: 400px;
+  background-repeat:no-repeat;
+  margin-top:30px;
+    
+    
+}
+#fromEmbed{
+width:265px;
+margin-top:37px;
+margin-left:16px;
+  
+}
+/* .embedsocial-hashtag-iframe{
+ height:264px!important; 
+} */
+#image_wrapper_1563201773831119_1563165007168129{
+  
+ height:270px!important; 
+}
+.winner-name{
+    
+   display:inline-block;
+   vertical-align: middle;
+   
+}
+.winner-name h1{
+    font-family: 'amsterdamregular';
+    font-weight:bold;
+    font-size:2.4em;
+    letter-spacing:0.1em;
+    margin-top:2em;
+    color:#690530;
+    margin-bottom:-20px;
+    text-align:center;
+                                                
+}
+.winner-name h3{
+    font-size:2em;
+    font-weight:500;
+    color:#690530;
+    margin-top:-10px;
+    margin-bottom:-14px;
+}
+.insta-icon{
+    display:inline-block;
+    vertical-align: middle;
+    
+}
+.insta-icon img{
+    width:30px;
+}
+.insta-icon-name{
+    display:inline-block;
+    vertical-align: middle;
+    text-align:center;
+   
+}
+.insta-icon-name h5{
+    font-size:1.3em;
+   
+}
+
+@media only screen and (max-width: 426px) {
+    .testimonial-two{
+        text-align:center;
+        margin-right:0%;
+    }
+.list-middle{
+    width:100%;
+}
+.testimonial-one {
+    display:none;
+}
+.insta-img{
+margin-left:100px;
+}
+.insta-icon img{
+    width:20px;
+}
+.insta-icon-name h5{
+    font-size:1em;
+   
+}
+.winner-name h1{
+    font-size:1.5em;
+    letter-spacing:0.1em;
+    margin-top:2em;
+    color:#690530;
+    margin-bottom:0px;
+                                                
+}
+.winner-name{
+    margin-bottom:-14px;
+}
+.winner-name h3{
+    font-size:1.8em;
+    margin-top:-14px;
+    margin-bottom:-10px;
+}
+}
+@media only screen and (max-width: 320px) {
+    .winner-section{
+        padding-bottom:0px;
+    }
+}
+/* End Testimonial */
+
+/* Wholesale Page */
+.custom-title{
+    font-weight:bold;
+    font-size:36px;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    text-align:center;
+
+}
+  .stretch {
+    display: flex;
+    flex-direction: row;
+}
+
+.across {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_space {
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+.bottom_space {
+    padding-bottom: 10px;
+}
+
+.scroll_two {
+    flex: 4;
+}
+
+.scroll {
+    flex: 1;
+    text-align: center;
+    align-self: center;
+}
+
+.scroll img {
+    width: 40%;
+    border-radius:50%;
+
+}
+
+.banner_franchise {
+    background-image: url('https://cdn.shopify.com/s/files/1/0246/9327/6757/files/Header_BG_Image.png?v=1583846813');
+    background-size: cover !important;
+    height: 500px;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 100%;
+    color: white;
+
+}
+
+.banner_franchise p:first-child {
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+.banner_franchise p:last-child {
+    width: 450px;
+    font-size: 20px;
+}
+
+.banner_franchise h1 {
+    font-size: 5em;
+    color: white;
+    line-height: 1.2;
+
+
+}
+
+.proposition_area {
+    background-image: url('https://cdn.shopify.com/s/files/1/0246/9327/6757/files/World_Map_2.png?v=1583928672');
+
+}
+
+.proposition_area h1 {
+    color: #494949;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.icon {
+    width: 50%;
+    margin: auto !important;
+    border-radius:50%;
+}
+
+/* .proposition_area li{
+    width:600px;
+} */
+hr {
+    border: 2px solid #3a2a2f;
+    width: 100%;
+ 
+
+}
+
+.franchise_sub_head {
+    font-weight: 700 !important;
+    color: black;
+
+}
+
+.franchise_product_area {
+    background-color: #f1f1f1;
+    padding: 0px 50px 10px 50px;
+    text-align:center;
+}
+
+.franchise_product_area h2 {
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    
+
+
+}
+
+.franchise_product_area p {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 1em;
+
+}
+
+.franchise_logo_area {
+    padding:20px;
+    background-color: #4b2d7f !important;
+    text-align:center;
+}
+.franchise_logo_img{
+ 
+    margin:auto;
+    text-align:center;
+
+}
+
+.franchise_product_img img {
+    border-radius:20px;
+    padding: 5px 10px;
+}
+
+
+
+.advert_pc {
+    display: block;
+}
+
+.mobile_pc {
+    display: none !important;
+}
+
+.wholesaler_form {
+    /* background-image: url('https://cdn.shopify.com/s/files/1/0246/9327/6757/files/Shapeweb.png?v=1584027015'); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    /* height: 900px; */
+    background-color: #3a2a2f;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+
+.wholesaler_form h2 {
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.wholesaler_form h3 {
+    color: white;
+    font-size: 26px;
+}
+
+.wholesaler_form p {
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.wholesale_manager {
+    color: white;
+    width: 100%;
+}
+
+#wholesale_submit {
+    background-color: #4b2d7f;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom-color: #f42267;
+}
+
+.label_content {
+    color: white;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: none;
+}
+
+ul {
+    padding-inline-start: 5px !important;
+}
+
+.stretch input {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.stretch select {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.label_section h3 {
+    text-align: left;
+}
+.stretch_logo {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+}
+.lazyframe[data-ratio="16:9"]:before {
+    padding-top: 1%!important;
+}
+/* .product_content {
+    padding: 0px 80px 80px 80px;
+
+} */
+
+@media only screen and (max-width: 769px) {
+    .banner_franchise h1 {
+        font-size: 4em;
+        line-height: 1.1;
+    }
+
+    .banner_franchise {
+        padding-left: 50px;
+    }
+
+    .none {
+        display: none !important;
+    }
+
+    .advert_pc {
+        display: block !important;
+    }
+
+    .mobile_pc {
+        display: none !important;
+    }
+
+
+    .wholesaler_form h2 {
+        font-size: 28px;
+
+        margin-bottom: 2px;
+    }
+
+    .wholesaler_form h3 {
+        font-size: 20px;
+        margin-bottom: 1px !important;
+    }
+
+    .wholesaler p {
+        width: 100%;
+    }
+
+    .label_section {
+        padding-left: 5px;
+    }
+
+}
+#wholesale_submit {
+width:40%;
+}
+/* .product_content {
+    padding: 0px 80px 80px 80px;
+
+} */
+
+@media only screen and (max-width: 426px) {
+    .banner_franchise {
+        /* background-image: url('https://cdn.shopify.com/s/files/1/0246/9327/6757/files/mobile_header.png?v=1583858836') !important; */
+        /* background-color: #3a2a2f; */
+        height: 300px;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .banner_franchise h1 {
+        font-size: 2em;
+
+    }
+
+    .banner_franchise p:last-child {
+
+        width: 300px;
+        font-size: 12px;
+    }
+
+    /* .icon {
+        width: 30%;
+        margin: auto !important;
+    } */
+    .stretch {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .scroll {
+        flex-direction: column;
+    }
+
+    .scroll_two {
+        flex-direction: column;
+    }
+
+    .scroll img {
+        width: 40%;
+        border-radius:50%;
+
+    }
+
+    hr {
+
+        width: 100%;
+
+    }
+
+    .franchise_sub_head {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    hr:nth-last-child(2) {
+        display: none !important;
+    }
+
+    /* .proposition_details{
+        width:60%;
+    } */
+    .proposition_area {
+        background-size: cover;
+
+    }
+
+    .proposition_area h1 {
+        font-size: 14px;
+    }
+
+    .franchise_product_area p {
+        width: 100%;
+    }
+
+    .none {
+        display: none !important;
+    }
+
+    .franchise_product_area {
+        padding: 0px 10px 10px 10px;
+    }
+
+    /* .product_content {
+        padding: 0px 40px 40px 40px;
+
+    } */
+
+    .franchise_logo_area {
+        padding: 20px;
+    }
+
+    .img_logo {
+        width: 50%;
+    }
+
+    .franchise_product_area h2 {
+
+        font-size: 16px;
+
+
+    }
+
+    .mobile_pc {
+        display: block !important;
+    }
+
+    .advert_pc {
+        display: none !important;
+    }
+
+    .wholesaler_form {
+        /* background-image: url('https://cdn.shopify.com/s/files/1/0246/9327/6757/files/Shapemobile.png?v=1584027015'); */
+        background-color: #3a2a2f;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .franchise_product_img img {
+        width: 509%;
+        padding: 5px 10px;
+    }
+    .wholesaler_form h2{
+        font-size:18px;
+    }
+
+    .wholesaler_form h3{
+        font-size:14px
+    }
+    .wholesaler_form p{
+        width:100%;
+        font-size:12px;
+        margin-bottom:3px;
+    }
+    #wholesale_submit {
+        padding:0px;
+    }
+    .franchise_logo_img{
+        width:30%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .banner_franchise h1 {
+        font-size: 1.3em;
+
+    }
+
+    .banner_franchise {
+
+        height: 260px;
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    .banner_franchise p:last-child {
+
+        width: 250px;
+        font-size: 12px;
+    }
+
+    .none {
+        display: none !important;
+    }
+
+    /* .product_content {
+        padding: 0px 20px 20px 20px;
+    } */
+}
+
+@media only screen and (max-width: 320px) {
+    .banner_franchise {
+        padding-top: 15px;
+        height: 200px;
+        padding-left:20px;
+    }
+
+    .banner_franchise h1 {
+        line-height: 0.2em;
+    }
+
+    .none {
+        display: none !important;
+    }
+
+}
